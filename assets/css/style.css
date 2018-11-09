@@ -1,4 +1,10 @@
+h5 {
+    color:#4aaaa5;
+}
 
+navbar {
+    width:1108px;
+}
 .top-container {
     width: 960px;
     margin: 0 auto;
@@ -79,8 +85,8 @@
 
 img {
     float: left;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     padding-right:5px;
     padding-top:10px;
 }
@@ -96,11 +102,12 @@ img {
 } 
 
 p {
-    line-height: 1.5;
+    line-height: 2;
     margin-top: 10px;
+    color: #777777;
 
 }
-
+j
 footer{
     clear:both;
     text-align: center;
