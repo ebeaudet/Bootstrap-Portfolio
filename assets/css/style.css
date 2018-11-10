@@ -156,10 +156,10 @@ footer{
 }
 
 
-.lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, .lbltriviaGame {
+/* .lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, .lbltriviaGame {
     background: #4aaaa5;
     opacity: .75;
-}
+} */
 
 /* .imgHangman, .imgTriviaGame, .imgRPS {
     float: left;
