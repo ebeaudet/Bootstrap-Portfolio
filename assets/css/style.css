@@ -11,6 +11,7 @@ a{
 navbar {
     width:1108px;
 }
+
 .top-container {
     width: 960px;
     margin: 0 auto;
@@ -156,12 +157,12 @@ footer{
 }
 
 
-/* .lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, .lbltriviaGame {
+ .lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, .lbltriviaGame {
     background: #4aaaa5;
     opacity: .75;
-} */
+} 
 
-/* .imgHangman, .imgTriviaGame, .imgRPS {
+.imgHangman, .imgTriviaGame, .imgRPS {
     float: left;
     position: relative;
     height:150px;
@@ -177,8 +178,16 @@ footer{
 }
 
 
+.lblHangman {
+    position: absolute;
+	background: #4aaaa5;
+    top: 100px;
+    width:195px;
+	text-align: center;
+	opacity: .75;
+}
 
-/* 
+
 .lblRPGGame {
     position: absolute;
 	background: #4aaaa5;
@@ -217,4 +226,9 @@ footer{
 	opacity: .75;
 
 
-} */ 
+} 
+
+#midBox {
+    margin-bottom:5em;
+    padding:2em;
+}
