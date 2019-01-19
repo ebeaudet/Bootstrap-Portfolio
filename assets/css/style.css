@@ -32,7 +32,6 @@
 
 .about-link, .portfolio-link, .contact-link {
     padding: 8px;
-    
     height:25px;
 }
 
@@ -79,16 +78,6 @@
     margin: 20px;  
 	position: relative;
     float: left;
-}
-
-
-
-img {
-    float: left;
-    height: 200px;
-    width: 200 px;
-    padding-right:5px;
-    padding-top:10px;
 }
 
 .pageHeading {
@@ -220,12 +209,15 @@ footer{
     width:195px;
 	text-align: center;
 	opacity: .75;
-
-
 } 
 
+#top-social {
+    float: right;
+}
 
-
+li {
+    float: left;
+}
 
 /*width at 960px */
 
