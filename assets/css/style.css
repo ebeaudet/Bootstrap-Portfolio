@@ -1,17 +1,3 @@
-h5 {
-    color:#4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-a{
-    color:#777777;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-navbar {
-    width:1108px;
-}
-
 .top-container {
     width: 960px;
     margin: 0 auto;
@@ -22,10 +8,17 @@ navbar {
     padding-top: 20px;
 }
 
+.card {
+    margin-bottom: 25px;
+}
+.card-text{
+    padding:20px;
+}
+
 .header {
     float:left;
-    width:960px;
-    padding-top: 50px;
+    width:100%;
+
 }
 
 .name{
@@ -39,7 +32,7 @@ navbar {
 
 .about-link, .portfolio-link, .contact-link {
     padding: 8px;
-    padding-top: 50px;
+    
     height:25px;
 }
 
@@ -92,8 +85,8 @@ navbar {
 
 img {
     float: left;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200 px;
     padding-right:5px;
     padding-top:10px;
 }
@@ -109,11 +102,11 @@ img {
 } 
 
 p {
-    line-height: 2;
+    line-height: 1.5;
     margin-top: 10px;
-    color: #777777;
 
 }
+
 footer{
     clear:both;
     text-align: center;
@@ -156,8 +149,11 @@ footer{
     color:white;
 }
 
+#midBox {
+    margin-bottom: 40px;
+}
 
- .lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, .lbltriviaGame {
+.lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, .lbltriviaGame {
     background: #4aaaa5;
     opacity: .75;
 } 
@@ -165,7 +161,7 @@ footer{
 .imgHangman, .imgTriviaGame, .imgRPS {
     float: left;
     position: relative;
-    height:150px;
+    height:200px;
     width:200px;
     clear: both;
 }
@@ -173,7 +169,7 @@ footer{
 
 .imgInfoWidget, .imgRPGGame {
     position: relative;
-    height:150px;
+    height:200px;
     width:200px;
 }
 
@@ -181,7 +177,7 @@ footer{
 .lblHangman {
     position: absolute;
 	background: #4aaaa5;
-    top: 100px;
+    top: 150px;
     width:195px;
 	text-align: center;
 	opacity: .75;
@@ -191,7 +187,7 @@ footer{
 .lblRPGGame {
     position: absolute;
 	background: #4aaaa5;
-    top: 100px;
+    top: 150px;
     width:195px;
 	text-align: center;
 	opacity: .75;
@@ -201,7 +197,7 @@ footer{
 .lbltriviaGame {
     position: absolute;
 	background: #4aaaa5;
-    top: 100px;
+    top: 150px;
     width:195px;
 	text-align: center;
 	opacity: .75;
@@ -210,7 +206,7 @@ footer{
 .lblInfoWidget {
     position: absolute;
 	background: #4aaaa5;
-    top: 100px;
+    top: 150px;
     width:195px;
 	text-align: center;
 	opacity: .75;
@@ -220,7 +216,7 @@ footer{
 .lblRPS {
     position: absolute;
 	background: #4aaaa5;
-    top: 100px;
+    top: 150px;
     width:195px;
 	text-align: center;
 	opacity: .75;
@@ -228,7 +224,97 @@ footer{
 
 } 
 
-#midBox {
-    margin-bottom:5em;
-    padding:2em;
+
+
+
+/*width at 960px */
+
+@media screen and (max-width: 960px) {
+
+    h1{
+        width:100%; 
+       /* margin-bottom: 30px; */
+    }
+  
+    .header{
+        width:100%; 
+        padding-top:0px;
+    }
+
+    .link-container{
+        width:100%; 
+        padding-top: 5px;
+
+         }
+
+    .pic-info, .middle-container, .aboutme, .pageHeading {
+        background: white;
+        width:100%;
+        float: left;
+        padding: 0%;
+        margin: 1% 1% 1% 1%;
+
+    }
 }
+
+
+ /*width at 768px */
+  @media screen and (max-width: 768px) {
+    h1{
+        width:100%; 
+        /* margin-bottom: 30px; */
+    }
+  
+    .header{
+        width:100%; 
+        position: static;
+        padding-top:0px;
+    }
+
+    .link-container{
+        width:100%; 
+        padding-top: 5px;
+         }
+
+    .pic-info, .middle-container, .aboutme, .pageHeading {
+        background: white;
+        width:100%;
+        float: left;
+        padding: 0%;
+        margin: 1% 1% 1% 1%;
+
+    }
+}
+/* width at 640px */
+  @media screen and (max-width: 640px) {
+  
+    .header{
+        position: static;
+    }
+
+    .top-container, .name{
+        width:100%; 
+        padding-top:2px;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .link-container{
+        width:100%; 
+        padding-top: 5px;
+         }
+
+    .pic-info, .middle-container, .aboutme, 
+    .pageHeading, .contact-form, .form,
+    .textbox {
+        background: white;
+        width:100%;
+        float: left;
+        padding: 0%;
+        margin: 1% 1% 1% 1%;
+
+    }
+
+}
+
+
+ 
