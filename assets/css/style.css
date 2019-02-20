@@ -156,18 +156,17 @@ footer{
 }
 
 
-.imgInfoWidget, .imgRPGGame {
+.imgInfoWidget, .imgRPGGame, .imgFF {
     float:left;
     position: relative;
     height:200px;
     width:200px;
     margin:20px;
     clear: both;
-
 }
 
 
-.lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, .lbltriviaGame {
+.lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, .lbltriviaGame, .lblFF {
     position: absolute;
 	background: #4aaaa5;
     top: 150px;
@@ -176,7 +175,7 @@ footer{
     margin-left: 20px;
 	opacity: .85;
 }
-.lblRPGCode, .lblHangmanCode, .lblInfoWidgetCode, .lblRPSCode, .lbltriviaGameCode {
+.lblRPGCode, .lblHangmanCode, .lblInfoWidgetCode, .lblRPSCode, .lbltriviaGameCode, .lblFFCode {
     position: absolute;
 	background: #4aaaa5;
     top: 175px;
