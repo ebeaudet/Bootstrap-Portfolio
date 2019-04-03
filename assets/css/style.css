@@ -156,7 +156,7 @@ footer{
 }
 
 
-.imgInfoWidget, .imgRPGGame, .imgFF, .imgSmelly {
+.imgInfoWidget, .imgRPGGame, .imgFF, .imgSmelly, .imgClicky {
     float:left;
     position: relative;
     height:200px;
@@ -167,7 +167,7 @@ footer{
 
 
 .lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, 
-.lbltriviaGame, .lblFF, .lblBurger, .lblSmelly {
+.lbltriviaGame, .lblFF, .lblBurger, .lblSmelly, .lblClicky {
     position: absolute;
 	background: #4aaaa5;
     top: 150px;
@@ -177,7 +177,7 @@ footer{
 	opacity: .85;
 }
 .lblRPGCode, .lblHangmanCode, .lblInfoWidgetCode, .lblRPSCode, 
-.lbltriviaGameCode, .lblFFCode, .lblBurgerCode, .lblSmellyCode {
+.lbltriviaGameCode, .lblFFCode, .lblBurgerCode, .lblSmellyCode, .lblClickyCode {
     position: absolute;
 	background: #4aaaa5;
     top: 175px;
