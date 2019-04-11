@@ -146,7 +146,7 @@ footer{
     min-width: 200px;
 }
 
-.imgHangman, .imgTriviaGame, .imgRPS, .imgBurger, .imgBooks {
+.imgHangman, .imgTriviaGame, .imgRPS, .imgBurger {
     float: left;
     position: relative;
     height:200px;
@@ -156,7 +156,7 @@ footer{
 }
 
 
-.imgInfoWidget, .imgRPGGame, .imgFF, .imgSmelly, .imgClicky {
+.imgInfoWidget, .imgRPGGame, .imgFF, .imgSmelly, .imgClicky, .imgBooks {
     float:left;
     position: relative;
     height:200px;
@@ -164,7 +164,6 @@ footer{
     margin:20px;
     clear: both;
 }
-
 
 .lblHangman, .lblInfoWidget, .lblRPGGame, .lblRPS, 
 .lbltriviaGame, .lblFF, .lblBurger, .lblSmelly, .lblClicky, .lblBooks {
